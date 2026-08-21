@@ -1,258 +1,273 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="Happy Birthday Website 2.0 | Aoudumber Bade">
-    <meta name="github" content="https://github.com/Aoudumber-Bade">
-    <title>Mehwish Birthday</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Poppins:wght@400;600&display=swap"
-        rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-</head>
-
-<body>
-    <div id="wrapper">
-        <div class="flag__birthday">
-            <img src="./images/1.png" alt="" width="350" class="flag__left">
-            <img src="./images/1.png" alt="" width="350" class="flag__right">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>HBD</title>
+    <link type="text/css" rel="stylesheet" href="./file/default.css" />
+    <script type="text/javascript" src="./file/jquery.min.js"></script>
+    <script type="text/javascript" src="./file/jscex.min.js"></script>
+    <script type="text/javascript" src="./file/jscex-parser.js"></script>
+    <script type="text/javascript" src="./file/jscex-jit.js"></script>
+    <script
+      type="text/javascript"
+      src="./file/jscex-builderbase.min.js"
+    ></script>
+    <script type="text/javascript" src="./file/jscex-async.min.js"></script>
+    <script
+      type="text/javascript"
+      src="./file/jscex-async-powerpack.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./file/functions.js"
+      charset="utf-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./file/love.js"
+      charset="utf-8"
+    ></script>
+    <script>
+      function playAudio() {
+        var audio = document.getElementById("myAudio");
+        audio.play();
+      }
+    </script>
+  </head>
+  <body>
+    <div id="main">
+      <div id="error">
+        <a
+          href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI"
+          >Chrome</a
+        >
+        (<a href="http://firefox.com.cn/download/">Firefox</a>)
+      </div>
+      <audio autoplay="autoplay" height="100" width="100" id="myAudio">
+        <source src="aud.mp3" type="audio/mp3" />
+        <embed height="100" width="100" src="aud.mp3" />
+      </audio>
+      <div id="wrap">
+        <div id="text">
+          <div id="code">
+            <span class="say">Wishing you the cutest day, Ema Madam! 🥹🎀💗
+</span><br />
+            <span class="say">শুভ জন্মদিন, Ema Madam! 🎂🎀💗</span><br />
+            <span class="say">তোমার মুখের মিষ্টি হাসিটা সবসময় এমনই থাকুক। তোমার জীবনের প্রতিটা দিন সুখ, আনন্দ আর সুন্দর মুহূর্তে ভরে উঠুক। তোমার সব স্বপ্ন পূরণ হোক। সবসময় ভালো থেকো, হাসিখুশি থেকো। 🫶🏻✨</span
+            ><br />
+            <span class="say"
+              >“১২ সেপ্টেম্বর—যেদিন</span
+            ><br />
+            <span class="say">যেদিন আমাদের প্রিয় Ema Madam এই পৃথিবীতে এসেছিল। 🎀💗</span><br />
+            <span class="say">শুভ জন্মদিন, সবচেয়ে মিষ্টি Madam! 🥹🎂✨”</span><br />
+            <span class="say">সয়তান 🫶🏻🎀💗</span
+            ><br />
+          </div>
         </div>
-        <div class="content">
-            <div class="left">
-                <div class="title">
-                    <h1 class="happy">
-                        <span style="--t: 4s;">H</span>
-                        <span style="--t: 4.2s;">a</span>
-                        <span style="--t: 4.4s;">p</span>
-                        <span style="--t: 4.6s;">p</span>
-                        <span style="--t: 4.8s;">y</span>
-                    </h1>
-                    <h1 class="birthday">
-                        <span style="--t: 5s;">B</span>
-                        <span style="--t: 5.2s;">i</span>
-                        <span style="--t: 5.4s;">r</span>
-                        <span style="--t: 5.6s;">t</span>
-                        <span style="--t: 5.8s;">h</span>
-                        <span style="--t: 6s;">d</span>
-                        <span style="--t: 6.2s;">a</span>
-                        <span style="--t: 6.4s;">y</span>
-                    </h1>
-                    <div class="hat">
-                        <img src="./images/hat.png" alt="" width="130">
-                    </div>
-                </div>
-                <div class="date__of__birth">
-                    <span></span>
-                </div>
-                <div class="btn">
-                    <button id="btn__letter">
-                        <div class="mail">
-                            Click Here Ema Medam👆
-                            <i class="fa-regular fa-envelope"></i>
-                        </div>
-                    </button>
-
-                </div>
-            </div>
-            <div class="right">
-                <div class="box__account">
-                    <div class="image">
-                        <img src="./images/unnamed.png" alt="">
-                    </div>
-                    <div class="name">
-                        <i class="fa-solid fa-heart"></i>
-                        <span>Dear Ema medam💐</span>
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-                    <div class="balloon_one">
-                        <img width="100px" src="./images/balloon1.png" alt="">
-                    </div>
-                    <div class="balloon_two">
-                        <img width="100px" src="./images/balloon2.png" alt="">
-                    </div>
-                </div>
-                <div class="cricle">
-                    <div class="text__cricle">
-                        <span style="--i: 1;">h</span>
-                        <span style="--i: 2;">a</span>
-                        <span style="--i: 3;">p</span>
-                        <span style="--i: 4;">p</span>
-                        <span style="--i: 5;">y</span>
-                        <span style="--i: 6;">-</span>
-                        <span style="--i: 7;">b</span>
-                        <span style="--i: 8;">i</span>
-                        <span style="--i: 9;">r</span>
-                        <span style="--i: 10;">t</span>
-                        <span style="--i: 11;">h</span>
-                        <span style="--i: 12;">d</span>
-                        <span style="--i: 13;">a</span>
-                        <span style="--i: 14;">y</span>
-                        <span style="--i: 15;">-</span>
-                    </div>
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-            </div>
+        <div id="clock-box">
+          <span id="clock">577 days 0 hours 0 minutes 0 seconds</span>
+          <!-- Change to "6940 days..." if needed -->
         </div>
-        <div class="decorate_star star1" style="--t: 15s;"></div>
-        <div class="decorate_star star2" style="--t: 15.2s;"></div>
-        <div class="decorate_star star3" style="--t: 15.4s;"></div>
-        <div class="decorate_star star4" style="--t: 15.6s;"></div>
-        <div class="decorate_star star5" style="--t: 15.8s;"></div>
-        <div class="decorate_flower--one" style="--t: 15s;">
-            <img width="20" src="./images/decorate_flower.png" alt="">
-        </div>
-        <div class="decorate_flower--two" style="--t: 15.3s;">
-            <img width="20" src="./images/decorate_flower.png" alt="">
-        </div>
-        <div class="decorate_flower--three" style="--t: 15.6s;">
-            <img width="20" src="./images/decorate_flower.png" alt="">
-        </div>
-        <div class="decorate_bottom">
-            <img src="./images/decorate.png" alt="" width="100">
-        </div>
-        <div class="smiley__icon">
-            <img src="./images/smiley_icon.png" alt="" width="100">
-        </div>
-
-
-        <div class="boxMail">
-            <i class="fa-solid fa-xmark"></i>
-            <div class="boxMail-container">
-                <div class="card1">
-                    <div class="userImg">
-                        <img src="images/unnamed.png" alt="">
-                    </div>
-                    <h4 class="username">To:Ema💖<span class="underline"></span></h4>
-
-                    <h3>Happy Birthday</h3>
-                    <div class="imageCute">
-                        <img src="cute1.png" alt="">
-                    </div>
-                </div>
-                <div class="card2">
-                    <div class="card2-content">
-                        <h3>To You!</h3>
-                        <h2>Happy birthday Happy Birthday! 🥳🎂✨ Wishing you a beautiful year filled with happiness, success, laughter, and unforgettable moments. Stay happy, keep smiling, and enjoy your special day! 💐💖
- 
-                        </h2>
-
-                        <div class="imageCute2">
-                            <img src="cute2.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <canvas id="canvas" width="1100" height="680"></canvas>
+      </div>
     </div>
 
-</body>
-<script>
-    let datetxt = "12 September ";
-    let datatxtletter = "My love. You are a very special girl. I always silently thank you for coming into my life. Today, I wish you all the best, lots of health, and lots of joy. I always hope we will celebrate many more birthdays like this together. Happy birthday to you.💕";
-    let titleLetter = "To you";
-    let charArrDate = datetxt.split('');
-    let charArrDateLetter = datatxtletter.split('');
-    let charArrTitle = titleLetter.split('');
-    let currentIndex = 0;
-    let currentIndexLetter = 0;
-    let currentIndexTitle = 0;
-    let date__of__birth = document.querySelector(".date__of__birth span");
-    let text__letter = document.querySelector(".text__letter p");
-    setTimeout(function () {
-        timeDatetxt = setInterval(function () {
-            if (currentIndex < charArrDate.length) {
-                date__of__birth.textContent += charArrDate[currentIndex];
-                currentIndex++;
+    <script>
+      (function () {
+        var canvas = $("#canvas");
+
+        if (!canvas[0].getContext) {
+          $("#error").show();
+          return false;
+        }
+
+        var width = canvas.width();
+        var height = canvas.height();
+        canvas.attr("width", width);
+        canvas.attr("height", height);
+
+        var opts = {
+          seed: {
+            x: width / 2 - 20,
+            color: "rgb(190, 26, 37)",
+            scale: 2,
+          },
+          branch: [
+            [
+              535,
+              680,
+              570,
+              250,
+              500,
+              200,
+              30,
+              100,
+              [
+                [
+                  540,
+                  500,
+                  455,
+                  417,
+                  340,
+                  400,
+                  13,
+                  100,
+                  [[450, 435, 434, 430, 394, 395, 2, 40]],
+                ],
+                [
+                  550,
+                  445,
+                  600,
+                  356,
+                  680,
+                  345,
+                  12,
+                  100,
+                  [[578, 400, 648, 409, 661, 426, 3, 80]],
+                ],
+                [539, 281, 537, 248, 534, 217, 3, 40],
+                [
+                  546,
+                  397,
+                  413,
+                  247,
+                  328,
+                  244,
+                  9,
+                  80,
+                  [
+                    [427, 286, 383, 253, 371, 205, 2, 40],
+                    [498, 345, 435, 315, 395, 330, 4, 60],
+                  ],
+                ],
+                [
+                  546,
+                  357,
+                  608,
+                  252,
+                  678,
+                  221,
+                  6,
+                  100,
+                  [[590, 293, 646, 277, 648, 271, 2, 80]],
+                ],
+              ],
+            ],
+          ],
+          bloom: {
+            num: 700,
+            width: 1080,
+            height: 650,
+          },
+          footer: {
+            width: 1200,
+            height: 5,
+            speed: 10,
+          },
+        };
+
+        var tree = new Tree(canvas[0], width, height, opts);
+        var seed = tree.seed;
+        var foot = tree.footer;
+        var hold = 1;
+
+        canvas
+          .click(function (e) {
+            playAudio();
+            var offset = canvas.offset(),
+              x,
+              y;
+            x = e.pageX - offset.left;
+            y = e.pageY - offset.top;
+            if (seed.hover(x, y)) {
+              hold = 0;
+              canvas.unbind("click");
+              canvas.unbind("mousemove");
+              canvas.removeClass("hand");
             }
-            else {
-                let i = document.createElement("i");
-                i.className = "fa-solid fa-star"
-                document.querySelector(".date__of__birth").prepend(i)
-                document.querySelector(".date__of__birth").appendChild(i.cloneNode(true))
-                clearInterval(timeDatetxt)
+          })
+          .mousemove(function (e) {
+            var offset = canvas.offset(),
+              x,
+              y;
+            x = e.pageX - offset.left;
+            y = e.pageY - offset.top;
+            canvas.toggleClass("hand", seed.hover(x, y));
+          });
+
+        var seedAnimate = eval(
+          Jscex.compile("async", function () {
+            seed.draw();
+            while (hold) {
+              $await(Jscex.Async.sleep(10));
             }
-        }, 100)
-    }, 12000)
+            while (seed.canScale()) {
+              seed.scale(0.95);
+              $await(Jscex.Async.sleep(10));
+            }
+            while (seed.canMove()) {
+              seed.move(0, 2);
+              foot.draw();
+              $await(Jscex.Async.sleep(10));
+            }
+          })
+        );
 
-    var intervalContent;
-    var intervalTitle;
-    $("#btn__letter").on("click", function () {
-        $(".box__letter").slideDown()
-        setTimeout(function () {
-            $(".letter__border").slideDown();
-        }, 1000)
-        setTimeout(function () {
-            intervalTitle = setInterval(function () {
-                if (currentIndexTitle < charArrTitle.length) {
-                    document.querySelector(".title__letter").textContent += charArrTitle[currentIndexTitle];
-                    let i = document.createElement("i");
-                    i.className = "fa-solid fa-heart"
-                    document.querySelector(".title__letter").appendChild(i)
-                    currentIndexTitle++;
-                }
-                else {
-                    clearInterval(intervalTitle)
-                }
-            }, 100)
-        }, 2000)
-        setTimeout(function () {
-            document.querySelector("#heart__letter").classList.add("animationOp");
-            document.querySelector(".love__img").classList.add("animationOp");
-            document.querySelector("#mewmew").classList.add("animationOp");
-        }, 2800)
-        setTimeout(function () {
-            document.querySelectorAll(".heart").forEach((item) => {
-                item.classList.add("animation")
-            })
-        }, 3500)
-        setTimeout(function () {
-            intervalContent = setInterval(function () {
-                if (currentIndexLetter < charArrDateLetter.length) {
-                    text__letter.textContent += charArrDateLetter[currentIndexLetter];
-                    currentIndexLetter++;
-                }
-                else {
-                    clearInterval(intervalContent)
-                }
-            }, 50)
-        }, 6000)
-    })
-    $(".close").on("click", function () {
-        clearInterval(intervalContent)
-        document.querySelector(".title__letter").textContent = "";
-        text__letter.textContent = "";
-        currentIndexLetter = 0
-        currentIndexTitle = 0
-        document.querySelector("#heart__letter").classList.remove("animationOp");
-        document.querySelector(".love__img").classList.remove("animationOp");
-        document.querySelector("#mewmew").classList.remove("animationOp");
-        document.querySelectorAll(".heart").forEach((item) => {
-            item.classList.remove("animation")
-        })
-        $(".box__letter").slideUp();
-        $(".letter__border").slideUp();
-    })
+        var growAnimate = eval(
+          Jscex.compile("async", function () {
+            do {
+              tree.grow();
+              $await(Jscex.Async.sleep(10));
+            } while (tree.canGrow());
+          })
+        );
 
+        var flowAnimate = eval(
+          Jscex.compile("async", function () {
+            do {
+              tree.flower(2);
+              $await(Jscex.Async.sleep(10));
+            } while (tree.canFlower());
+          })
+        );
 
+        var moveAnimate = eval(
+          Jscex.compile("async", function () {
+            tree.snapshot("p1", 240, 0, 610, 680);
+            while (tree.move("p1", 500, 0)) {
+              foot.draw();
+              $await(Jscex.Async.sleep(10));
+            }
+            foot.draw();
+            tree.snapshot("p2", 500, 0, 610, 680);
 
-    let mailBox = document.querySelector('.mail')
-    let boxmail = document.querySelector('.boxMail')
-    var close = document.querySelector('.fa-xmark')
-    mailBox.onclick = function () {
-        mailBox.classList.toggle('active')
-        boxmail.classList.add('active')
-    }
+            canvas
+              .parent()
+              .css("background", "url(" + tree.toDataURL("image/png") + ")");
+            canvas.css("background", "#ffe");
+            $await(Jscex.Async.sleep(300));
+            canvas.css("background", "none");
+          })
+        );
 
-    close.addEventListener('click', function () {
-        boxmail.classList.remove('active')
-    })
-</script>
+        var textAnimate = eval(
+          Jscex.compile("async", function () {
+            $("#code").show().typewriter();
+          })
+        );
 
+        var runAsync = eval(
+          Jscex.compile("async", function () {
+            $await(seedAnimate());
+            $await(growAnimate());
+            $await(flowAnimate());
+            $await(moveAnimate());
+            textAnimate().start();
+          })
+        );
+
+        runAsync().start();
+      })();
+    </script>
+  </body>
 </html>
